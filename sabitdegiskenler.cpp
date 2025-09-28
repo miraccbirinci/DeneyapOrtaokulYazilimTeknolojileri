@@ -11,7 +11,7 @@ int main() {
     cout << "PI sabiti: " << PI << endl;
     cout << "Dairenin alani: " << alan << endl;
 
-    // PI = 3.15; // ❌ HATA! const degisken degistirilemez
+    // PI = 3.15; //  HATA! const degisken degistirilemez
 
     return 0;
 }

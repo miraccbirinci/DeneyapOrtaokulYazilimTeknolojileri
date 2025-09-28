@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Temel veri tipleri icin deger ornekleri
+// Temel veri tipleri
 
 int main() {
     int myInt = 42;                // int: tam sayi
