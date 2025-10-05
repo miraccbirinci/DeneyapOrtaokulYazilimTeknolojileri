@@ -1,108 +1,52 @@
-# C++ Karar Yapıları ve Döngüler Ders Notları
 
-## Giriş
-Program yazarken bazen şunu sormak isteriz:  
-- “Eğer sayı pozitifse şunu yap, değilse başka bir şey yap.”  
-- “Bir işlemi 10 kere tekrarla.”  
+# C++ Ornek Proje — Ortaokul Duzeyi
 
-İşte bunları **karar yapıları** ve **döngüler** ile yapıyoruz.  
+Hazirlayan: **Mirac Birinci**
 
----
+Bu proje, C++ diline yeni baslayan ortaokul ogrencileri icin temel ornekleri icerir.
+Her dosyada **Turkce yorum satirlari** bulunmaktadir. Kodlar satir satir
+aciklanmistir. Amac, ogrencilerin `cin`, `cout`, `getline`, `endl`, `namespace`
+gibi temel kavramlari gormesidir.
 
-## Karar Yapıları
+## Dosya Icerikleri
 
-### 1. `if` ve `else`
-- `if` → “Eğer … doğruysa bunu yap.”  
-- `else` → “Değilse başka bir şey yap.”  
+- **magazamusteriproblemi.cpp**  
+  Gercek hayat ornegi: Urun satisi ve indirim hesabi.  
+  `if` kullanmadan bool degeri 0/1 carpan gibi kullaniyoruz.
 
-**Örnek:**
-```cpp
-int sayi = 5;
-if(sayi > 0) {
-    cout << "Pozitif sayi!";
-} else {
-    cout << "Negatif sayi!";
-}
-```
+- **matematikselislemler.cpp**  
+  4 `int` sayi uzerinden toplama, cikarma, carpma, bolme ve mod islemleri.  
+  Ayrica karsilastirma operatorleri.
 
-### 2. `else if`
-Birden fazla ihtimali kontrol etmek için kullanılır.  
-```cpp
-if(sayi < 0) {
-    cout << "Negatif";
-} else if(sayi == 0) {
-    cout << "Sifir";
-} else {
-    cout << "Pozitif";
-}
-```
+- **giriscikisislemleri.cpp**  
+  Kullanici adini (bosluklu), yasini ve sinifini alir.  
+  `getline` ile bosluklu metin okuma gosterilir.
 
-### 3. `switch`
-Bir değişkenin değerine göre seçim yapar. Özellikle menülerde kullanılır.  
+- **yenisatir.cpp**  
+  `endl` ile `\n` farki anlatilir.
 
-```cpp
-char islem = '+';
-switch(islem) {
-    case '+': cout << "Toplama"; break;
-    case '-': cout << "Cikarma"; break;
-    default: cout << "Hatali giris!";
-}
-```
+- **veritipleri.cpp**  
+  `int`, `float`, `double`, `char`, `bool`, `string` turleri icin deger ornekleri.
 
----
+## Ogrenme Hedefleri
 
-## Döngüler
+- Temel veri tiplerini tanimak
+- `cin` ve `cout` ile veri girisi/cikisi yapmak
+- `getline` ile bosluklu girdi almak
+- `endl` ve `\n` farkini gormek
+- `using namespace std;` kullanilmazsa `std::cout` yazmak gerektigini anlamak
 
-Döngüler, bilgisayara **aynı işlemi tekrar tekrar yaptırmak** için kullanılır.
+## Ogretmen Notlari
 
-### 1. `for` Döngüsü
-Önceden kaç kere çalışacağını biliyorsak kullanırız.  
-```cpp
-for(int i=1; i<=5; i++) {
-    cout << i << " ";   // 1 2 3 4 5
-}
-```
+- Ilk derste sabit degerlerle ornekler calistirilabilir.  
+- `cin` ve `getline` farkini uygulamalarda gostermek faydali olur.  
+- `endl` ve `\n` arasindaki fark, performans konusu ileride anlatilabilir.  
+- `bool` degerlerinin aritmetikte 0/1 gibi davranabilecegi gosterilebilir.
 
-### 2. `while` Döngüsü
-Bir şart **doğru olduğu sürece** çalışır.  
-```cpp
-int i=1;
-while(i<=5) {
-    cout << i << " ";
-    i++;
-}
-```
+## Odev Sorulari
 
-### 3. `do-while` Döngüsü
-En az bir kere çalışır, sonra koşulu kontrol eder.  
-```cpp
-int i=1;
-do {
-    cout << i << " ";
-    i++;
-} while(i<=5);
-```
+1. Indirim orani icin yuzde (ornegin 20) girdi aliniz ve 0.20'ye ceviriniz.  
+2. Matematik ornegine `(a+b)*(c+d)` islemini ekleyiniz.  
+3. Sinif bilgisini de `getline` ile aliniz (ornegin "7 B").  
+4. `using namespace std;` satirini siliniz ve kodu `std::cout` seklinde duzeltiniz.
 
----
-
-## Örnek Projelerden Ne Öğrendik?
-- **Karar yapıları** ile sayının 3’e bölünüp bölünmediğini bulduk.  
-- **If-else** ile yaşa göre bilet fiyatı hesapladık.  
-- **Switch-case** ile basit bir hesap makinesi yaptık.  
-- **For döngüsü** ile 1’den 20’ye kadar tek sayıları yazdırdık.  
-- **While döngüsü** ile 100’den geriye saydık.  
-- **Do-while** ile en az 1 kere çalışan döngü kurduk.  
-
----
-
-## Ödev
-Şimdi sıra sizde! Aşağıdaki problemlerden **birini seçin ve çözün**:
-
-1. 1’den 50’ye kadar olan **çift sayıları** ekrana yazdıran programı yaz.  
-2. Kullanıcıdan yaşını alan ve şu çıktıyı veren programı yaz:  
-   - 0–12 yaş: “Çocuk”  
-   - 13–17 yaş: “Genç”  
-   - 18+ yaş: “Yetişkin”  
-3. Kullanıcıdan bir sayı iste ve bu sayının **çarpım tablosunu** (1’den 10’a kadar) ekrana yazdır.  
-
----
