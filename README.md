@@ -1,5 +1,5 @@
 
-# Hafta 1 ve Hafta 2 Ders Kazanımları
+# Hafta 2 ve Hafta 3 Ders Kazanımları
 
 Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalışmaları, kazandıkları becerileri ve velilerimizin süreç hakkında daha fazla bilgi sahibi olabilmesi için hazırlanmıştır.  
 
@@ -46,6 +46,28 @@ Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalı
 
 ---
 
+## Hafta 4: Diziler (Arrays) ve Katarlar (Strings)
+
+**İşlenen Konular:**
+- Dizi (array) tanımlama ve elemanlara erişim
+- Kullanıcıdan dizi elemanlarını alma (`for` döngüsüyle giriş)
+- Dizilerde koşul kontrolü (tek/çift sayıları bulma, 5’e bölünebilme kontrolü)
+- Dizilerde arama işlemi (lineer arama)
+- Dizilerde sıralama (selection sort mantığı)
+- En büyük veya en küçük elemanı bulma
+- İki dizinin elemanlarını toplama
+- Karakter dizileri (C tipi stringler) ile çalışma
+- `'\\0'` sonlandırıcısının önemi ve karakter tabanlı giriş/çıkış
+
+**Kazanımlar:**
+- Öğrenciler **birden fazla veriyi tek yapıda saklayabilmeyi** öğrenmiştir.
+- **Dizilerle tekrarlayan işlemleri kolaylaştırma** ve **veri kümelerini yönetme** becerisi kazanmışlardır.
+- **Arama ve sıralama algoritmaları** ile bilgisayarın veri üzerinde işlem yapma mantığını kavramışlardır.
+- **Karakter dizileriyle metinleri işleme**, ad–soyad gibi girdileri yönetme becerisi edinmişlerdir.
+- Veliler için: Çocuğunuz artık bilgisayarda **birden fazla veriyi aynı anda yönetip analiz edebilen küçük veri programları** yazabilmektedir. Bu, soyut düşünme ve veri organizasyonu becerilerini geliştirmektedir.
+
+---
+
 ## Genel Kazanımlar
 
 - **Algoritmik düşünme**: Bir problemi adım adım çözme becerisi.  
@@ -54,20 +76,3 @@ Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalı
 - **Temel yazılım becerisi**: C++ dilinde küçük ama işlevsel programlar geliştirebilme.  
 
 ---
-
-## Öğrenci Ödevi (Veliler için Takip Tavsiyesi)
-
-Çocuğunuza şu soruyu sorabilirsiniz:  
-
-**“Bir okulda öğrencilerin yaşlarına göre bilet fiyatı hesaplanacak.  
-- 0-12 yaş: 10 TL  
-- 13-18 yaş: 15 TL  
-- 19 yaş ve üzeri: 20 TL  
-
-Bunu C++ ile nasıl yazarsın?”**  
-
- Bu ödev, öğrencinin hem **if-else karar yapısını**, hem de **değişken kullanımını** pekiştirmesi için uygundur.
-
----
-
-Velilerimizin desteğiyle öğrencilerimiz **programlama yolculuklarına güçlü bir başlangıç yapmışlardır.** 
