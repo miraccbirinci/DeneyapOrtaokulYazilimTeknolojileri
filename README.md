@@ -1,5 +1,5 @@
 
-# Hafta 1 ve Hafta 2 Ders Kazanımları
+# Hafta 2 ve Hafta 3 Ders Kazanımları
 
 Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalışmaları, kazandıkları becerileri ve velilerimizin süreç hakkında daha fazla bilgi sahibi olabilmesi için hazırlanmıştır.  
 
