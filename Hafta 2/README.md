@@ -1,9 +1,6 @@
-# 📘 C++ Karar Yapıları ve Döngüler Ders Notları
+# C++ Karar Yapıları ve Döngüler Ders Notları
 
 ## Giriş
-Merhaba çocuklar!  
-Bugün sizlerle bilgisayar programlarında çok önemli olan **karar yapıları** ve **döngüleri** öğreneceğiz.  
-
 Program yazarken bazen şunu sormak isteriz:  
 - “Eğer sayı pozitifse şunu yap, değilse başka bir şey yap.”  
 - “Bir işlemi 10 kere tekrarla.”  
