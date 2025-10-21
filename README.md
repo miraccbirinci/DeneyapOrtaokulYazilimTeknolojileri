@@ -1,5 +1,5 @@
 
-# Hafta 2 ve Hafta 3 Ders Kazanımları
+# Hafta 2, Hafta 3, Hafta 4, Hafta 5, Hafta 6, Hafta 7 Ders Kazanımları
 
 Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalışmaları, kazandıkları becerileri ve velilerimizin süreç hakkında daha fazla bilgi sahibi olabilmesi için hazırlanmıştır.  
 
@@ -74,5 +74,45 @@ Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalı
 - **Mantıksal düşünme**: Koşullar ve sonuçlar arasında ilişki kurabilme.  
 - **Problem çözme**: Gerçek hayattan verilen örnekleri bilgisayar ortamında modelleyebilme.  
 - **Temel yazılım becerisi**: C++ dilinde küçük ama işlevsel programlar geliştirebilme.  
+
+---
+
+## Hafta 5: Fonksiyonlar 
+
+**İşlenen Konular:**
+- Fonksiyon kavramı: dönüş tipi + isim + parametre(ler) + gövde
+- Fonksiyon tanımlama ve çağırma (call) mantığı
+- Parametreler: sayısal, karakter/metin, dizi ve 2×2 matris örnekleri
+- Dönüş tipleri: `void`, `int`, `double/float`, `bool`, `char`/`string`
+- `return` ifadesi ve akışı sonlandırma davranışı
+- İsimlendirme (anlamlı adlar: `topla`, `ucgen_alan_hesapla`, `en_buyuk`)
+- Değişken kapsamı (scope): global ↔ yerel (local) değişken farkı
+- Dizileri/matrisleri fonksiyona parametre olarak gönderme, `const` ile sadece okuma garantisi
+- Kodun modülerleşmesi: tekrar eden işlemleri fonksiyonlaştırma
+- Basit problemlerle uygulama:
+  - Ekrana tekrarlı yazdırma (`void`)
+  - Üçgen alanı hesaplama (`void` ve/veya `double` döndüren)
+  - 5'e tam bölünebilme kontrolü (`bool`/`void`)
+  - Dizide en büyük elemanı bulma (`int` döndüren)
+  - İki dizinin en büyüklerini toplayarak sonuç üretme
+  - 2×2 matrisin elemanları toplamını bulma
+
+**Kazanımlar:**
+- Öğrenciler **fonksiyon tanımlamayı ve çağırmayı** öğrenmiştir.
+- **Parametre ve dönüş tipi seçimini** doğru yaparak problemi parçalara ayırabilmektedir.
+- **`void` ve değer döndüren fonksiyonların farkını** kavramış; `return` kullanımını öğrenmiştir.
+- **Global–yerel değişken farkını** anlamış; yan etkileri azaltacak şekilde kod yazabilmektedir.
+- **Dizileri/matrisleri fonksiyona doğru şekilde aktarma** ve `const` ile veriyi koruma becerisi kazanmıştır.
+- **Kod tekrarı azaltılmış**, daha okunabilir ve bakımı kolay programlar geliştirebilmektedir.
+- Veliler için: Çocuğunuz artık **programlarını küçük, yeniden kullanılabilir parçalara ayırarak** yazabilmekte; bu da **analitik düşünme, hata ayıklama ve tasarım becerilerini** güçlendirmektedir.
+
+---
+
+## Genel Kazanımlar
+
+- **Algoritmik düşünme**: Bir problemi alt parçalara bölüp her parça için fonksiyon tasarlayabilme.
+- **Mantıksal düşünme**: Girdi–çıktı, koşullar ve sonuçlar arasındaki ilişkiyi netleştirme.
+- **Problem çözme**: Günlük hayattaki hesaplamaları ve kontrol adımlarını fonksiyonlara dönüştürme.
+- **Temel yazılım becerisi**: C++ dilinde modüler, okunabilir ve test edilebilir küçük programlar geliştirebilme.
 
 ---
