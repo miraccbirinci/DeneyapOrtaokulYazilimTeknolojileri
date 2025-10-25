@@ -1,33 +1,27 @@
-#include <iostream>
-#include <cstring>
+#include <iostream>   // cout / endl
+#include <cstring>    // strcpy
 using namespace std;
 
-/*
-  SINIF TANIMLAMA: Kus
-*/
-class Kus
+class Kus               // SINIF TANIMLAMA
 {
-public:
-    char tur[20];     // ÜYE LİSTESİ
-    char ad[20];
-
-    void ucma();      // ÜYE FONKSİYON
+public:                 // ERİŞİM BELİRTECİ
+    char tur [20];      // ÜYE: tür
+    char ad  [20];      // ÜYE: ad
+    void ucma ( );      // ÜYE FONKSİYON: uçma davranışı
 };
 
-// FONKSİYON OLUŞTURMA: sınıf dışı tanım
-void Kus::ucma()
+void Kus :: ucma ( )    // FONKSİYON OLUŞTURMA
 {
-    cout << "Kuslar kanatlarini kullanarak ucarlar." << endl;
+    cout << "Kuslar kanatlarini kullanarak ucarlar." << endl;  // bilgi
 }
 
-int main()
+int main ( )            // PROGRAM BAŞLANGICI
 {
-    // NESNE OLUŞTURMA
-    Kus k1;
-    strcpy(k1.tur, "Muhabbet Kusu");
-    strcpy(k1.ad,  "Boncuk");
-
-    cout << "Kusun turu: " << k1.tur << "  Adi: " << k1.ad << endl;
-    k1.ucma();
+    Kus k1;                                       // NESNE OLUŞTURMA
+    strcpy(k1.tur, "Muhabbet Kusu");              // tür bilgisini yaz
+    strcpy(k1.ad , "Boncuk");                     // ad bilgisini yaz
+    cout << "Kusun turu: " << k1.tur              // ekrana yaz
+         << " " << "Adi: " << k1.ad << endl;
+    k1.ucma ( );                                   // üye fonksiyon çağrısı
     return 0;
 }
