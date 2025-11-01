@@ -108,11 +108,70 @@ Bu doküman, öğrencilerimizin **C++ programlama dili** ile yaptıkları çalı
 
 ---
 
-## Genel Kazanımlar
+## Hafta 6: Nesne Yönelimli Programlama (OOP)
 
-- **Algoritmik düşünme**: Bir problemi alt parçalara bölüp her parça için fonksiyon tasarlayabilme.
-- **Mantıksal düşünme**: Girdi–çıktı, koşullar ve sonuçlar arasındaki ilişkiyi netleştirme.
-- **Problem çözme**: Günlük hayattaki hesaplamaları ve kontrol adımlarını fonksiyonlara dönüştürme.
-- **Temel yazılım becerisi**: C++ dilinde modüler, okunabilir ve test edilebilir küçük programlar geliştirebilme.
+**İşlenen Konular:**
+- Sınıf (class) ve nesne (object) kavramı
+- Özellik (veri üyeleri) ve davranış (metotlar) tanımlama
+- Erişim belirleyicileri: `public`, `private` (kapsülleme)
+- Yapıcı (constructor) ve yıkıcı (destructor) fonksiyonlar
+- Parametreli ve parametresiz yapıcı farkı
+- Kapsülleme (encapsulation): veriyi koruma, `get` ve `set` fonksiyonları
+- Kalıtım (inheritance): üst sınıftan alt sınıf türetme
+- Fonksiyon aşırı yükleme (overloading): aynı isimli fonksiyonları farklı parametrelerle tanımlama
+- Polimorfizm (çok biçimlilik): aynı fonksiyon adının farklı sınıflarda farklı davranması
+- Gerçek yaşam örnekleri: Futbolcu, Nokta, Hayvan-Kedi-Köpek sınıfları
+
+**Kazanımlar:**
+- Öğrenciler **gerçek hayattaki nesneleri bilgisayar ortamına taşıyarak modelleme** becerisi kazanmıştır.
+- **Sınıf ve nesne ilişkisini** kavramış; bir nesnenin özellikleri ve davranışları olduğunu fark etmiştir.
+- **Constructor ve destructor kavramlarını** öğrenmiş; nesne ömrü ve bellek farkındalığı geliştirmiştir.
+- **Kapsülleme ile verinin korunması** gerektiğini öğrenmiş; `public` ve `private` farkını kavramıştır.
+- **Kalıtım (inheritance)** sayesinde kod tekrarını azaltma ve hiyerarşi oluşturma mantığını kavramıştır.
+- **Overloading ve polimorfizm** sayesinde aynı işlemin farklı biçimlerde uygulanabileceğini görmüştür.
+- **Veliler için:** Çocuğunuz artık **programlarını nesne temelli düşünebilmektedir**. Bu beceri, gelecekte **karmaşık yazılımları anlaması ve tasarlaması** için önemli bir adımdır.
 
 ---
+
+## Hafta 7: Kütüphane Kullanımı ve Dosyalama İşlemleri
+
+**İşlenen Konular:**
+- Hazır kütüphaneler:
+  - `#include <iostream>` (ekrana yazdırma, klavyeden okuma)
+  - `#include <string>` (C++ metin türleri)
+  - `#include <cstring>` (C-tipi karakter dizileri, `strlen`, `strcpy`)
+  - `#include <fstream>` (dosya okuma–yazma işlemleri)
+- Dosya sınıfları:
+  - `ifstream` → okuma
+  - `ofstream` → yazma
+  - `fstream` → hem okuma hem yazma
+- Dosya fonksiyonları: `open()`, `is_open()`, `close()`, `<<`, `>>`, `getline()`
+- Açma kipleri (modlar): `ios::in`, `ios::out`, `ios::app`, `ios::trunc`
+- Dosya oluşturma, veri yazma, veri okuma, ekleme (append) işlemleri
+- `string` ve `char[]` veri türleriyle metin işlemleri
+- Uygulamalar:
+  - Cümledeki kelime sayısını bulma
+  - Kullanıcıdan alınan verileri dosyaya yazma
+  - Dosyadan veri okuma ve ekrana yazdırma
+  - Dosyaya ekleme işlemi
+
+**Kazanımlar:**
+- Öğrenciler, **kütüphanelerin programlara nasıl yeni özellikler kazandırdığını** öğrenmiştir.
+- **Dosyalama işlemleri** sayesinde bilgilerin kalıcı şekilde kaydedilmesini sağlamıştır.
+- **Dosya okuma, yazma, ekleme ve kapatma işlemlerini** doğru sırayla uygulayabilir hale gelmiştir.
+- `string` ve `char[]` farkını anlamış, **metinleri işlemeyi** öğrenmiştir.
+- **Gerçek hayattaki bilgi saklama mantığını** (örneğin bir not defteri veya veri tabanı gibi) programlama düzeyinde anlamaya başlamıştır.
+- **Veliler için:** Çocuğunuz artık **veriyi kalıcı hale getirebilen ve bilgisayarda saklayabilen küçük programlar** geliştirebilmektedir. Bu, **veri yönetimi ve planlama becerisini** destekler.
+
+---
+
+## Genel Kazanımlar
+
+- **Algoritmik düşünme:** Problemleri adım adım planlama ve çözme alışkanlığı kazandırır.
+- **Yapısal programlama:** Kodun mantıklı bölümlere (fonksiyonlar, sınıflar) ayrılarak düzenli yazılmasını sağlar.
+- **Nesne yönelimli düşünme:** Gerçek dünyadaki varlıkları bilgisayar ortamına sınıflar ve nesnelerle modelleme becerisi kazandırır.
+- **Kapsülleme ve soyutlama:** Verinin gizlenmesi, sadece gerekli bilgilerin paylaşılması konusunda farkındalık oluşturur.
+- **Problem çözme:** Gerçek yaşam problemlerini bilgisayar ortamında simüle etme becerisi kazandırır.
+- **Kütüphane kullanımı:** C++'ın sunduğu hazır yapıları tanıyarak, yeniden keşfetmeden çözüm üretmeyi öğretir.
+- **Veri yönetimi ve dosyalama:** Bilgiyi kaydedebilme, saklayabilme ve sonradan kullanabilme becerisi kazandırır.
+- **Yazılım disiplini:** Kodlama sürecini planlı, güvenli ve sürdürülebilir şekilde yürütme alışkanlığı kazandırır.
