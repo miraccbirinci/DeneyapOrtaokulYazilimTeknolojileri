@@ -1,0 +1,3 @@
+Merhaba Deneyap!
+Bu bir ornek metin dosyasidir.
+Dosya okuma ve yazma islemleri icin kullanilir.

@@ -5,7 +5,7 @@ using namespace std;
 // Nokta adında bir sınıf oluşturuyoruz.
 // Bu sınıfın görevi, 2 boyutlu düzlemde bir noktanın konumunu tutmak.
 class Nokta {
-    int x, y; // Noktanın x ve y koordinatlarını saklayan değişkenler
+   int x, y; // Noktanın x ve y koordinatlarını saklayan değişkenler
 public:
     // Noktanın yeni bir konuma gitmesini sağlayan fonksiyon
     void git(int yeni_x, int yeni_y);
